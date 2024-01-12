@@ -1,6 +1,6 @@
 specVersion: 0.0.5
 schema:
-  file: ./schema.graphql
+  file: schema.graphql
 dataSources:
   - kind: ethereum
     name: rebel
@@ -18,8 +18,8 @@ dataSources:
         - Owner
       abis:
         - name: rebel
-          file: ./abis/rebel.json
+          file: rebel/abis/rebel.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,indexed uint256)
           handler: handleTransfer
-      file: ./src/rebel.ts
+      file: rebel/rebel.wasm
