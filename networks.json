@@ -1,0 +1,8 @@
+{
+  "mainnet": {
+    "rebel": {
+      "address": "0x5041A99684D38e280e4B0B356185BF18c991F88B",
+      "startBlock": 13668765
+    }
+  }
+}
